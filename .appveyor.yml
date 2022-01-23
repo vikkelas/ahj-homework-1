@@ -5,6 +5,8 @@ stack: node 10  # окружение
 branches:
   only:
     - main  # ветка git
+  except:
+    - gh-pages
 
 cache: node_modules  # кеширование
 
