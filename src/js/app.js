@@ -4,5 +4,6 @@
 
 // for demonstration purpose only
 export default function demo(value) {
-  return value;
+  const sum = value + 10;
+  return sum;
 }
